@@ -14,6 +14,9 @@ import demoImage1 from '../assets/images/demo-image-01.jpg';
 import demoImage2 from '../assets/images/demo-image-02.jpg';
 import bgMaster from '../assets/images/bg-masthead.jpg';
 
+import PostList from '../posts/PostList';
+import VideoPostList from '../posts/VideoPostList';
+
 const IndexPage = () => (
   <Layout>
     <Header />
@@ -27,7 +30,7 @@ const IndexPage = () => (
           </h2>
           <Scroll type="id" element="about">
             <a href="#about" className="btn btn-primary">
-              About
+              about
             </a>
           </Scroll>
         </div>
@@ -46,6 +49,8 @@ const IndexPage = () => (
                 the github repo
               </a>
               .
+              <PostList/>
+              <VideoPostList/>
             </p>
           </div>
         </div>

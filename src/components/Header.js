@@ -68,7 +68,7 @@ export default class Header extends Component {
                   element="about"
                 >
                   <a className="nav-link" href="#about">
-                    About
+                    BIO
                   </a>
                 </Scroll>
               </li>
@@ -79,7 +79,7 @@ export default class Header extends Component {
                   element="projects"
                 >
                   <a className="nav-link" href="#projects">
-                    Projects
+                    MUSIC
                   </a>
                 </Scroll>
               </li>
@@ -90,7 +90,7 @@ export default class Header extends Component {
                   element="signup"
                 >
                   <a className="nav-link" href="#signup">
-                    Contact
+                    CONTACT
                   </a>
                 </Scroll>
               </li>
