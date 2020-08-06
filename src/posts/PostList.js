@@ -7,14 +7,21 @@ class PostList extends Component {
   }
 
   render() {
-    const artist = PostData.appData.artist; 
+    // const artist = PostData.appData.artist; 
 
     return (
       <div>
-          {Object.keys(artist).map(key => {
-            return (<p>{artist[key]}</p>
-                )
-          })}
+          <div>
+              { PostData.appData.news.map((news, index) => {
+                  return (
+                <ul>
+                    <l1>{news.title}</l1>
+                    <l2>{news.linkurl}</l2>
+                    <img src={news.pictureurl}/>
+                </ul>
+                  )
+              })}
+          </div>
       </div>
     );
   }
