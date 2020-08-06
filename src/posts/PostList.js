@@ -14,11 +14,12 @@ class PostList extends Component {
           <div>
               { PostData.appData.news.map((news, index) => {
                   return (
-                <ul>
-                    <l1>{news.title}</l1>
-                    <l2>{news.linkurl}</l2>
-                    <img src={news.pictureurl}/>
-                </ul>
+                    <ul>
+                      {/* <l1>{news.title}</l1> */}
+                      <a href={news.linkurl}>
+                        {news.title}</a>
+                      <img src={news.pictureurl} style={{ width: 100 }} />
+                    </ul>
                   )
               })}
           </div>
