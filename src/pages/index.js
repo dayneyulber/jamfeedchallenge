@@ -16,12 +16,22 @@ import bgMaster from '../assets/images/bg-masthead.jpg';
 
 import PostList from '../posts/PostList';
 import VideoPostList from '../posts/VideoPostList';
-// import Carousel from '../components/carousel.js';
+import Button from '../components/spotifyBtn'; 
+
+function getHashParams() {
+  var hashParams = {};
+  var e, r = /([^&;=]+)=?([^&;]*)/g,
+      q = window.location.hash.substring(1);
+  while ( e = r.exec(q)) {
+     hashParams[e[1]] = decodeURIComponent(e[2]);
+  }
+  return hashParams;
+}
 
 const IndexPage = () => (
   <Layout>
     <Header />
-
+    
     <header className="masthead">
       <div className="container d-flex h-100 align-items-center">
         <div className="mx-auto text-center">
@@ -49,8 +59,9 @@ const IndexPage = () => (
               {/* <a href="https://github.com/anubhavsrivastava/gatsby-starter-grayscale">
                 the github repo
               </a> */}
-              <PostList/>
-              <VideoPostList/>
+              <PostList />
+              <VideoPostList />
+              <Button/>
               {/* <Carousel/> */}
               
             </p>
