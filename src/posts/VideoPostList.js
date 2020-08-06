@@ -12,10 +12,12 @@ class VideoPostList extends Component {
           <div>
               { VideoPostData.results.map((results, index) => {
                   return (
-                <ul>
-                    <l1>{results.snippet.title}</l1>
-                    <l2>{results.snippet.description}</l2>
-                </ul>
+                    <ul>
+                      {/* <l1>{news.title}</l1> */}
+                      <a href={results.snippet.title}>
+                        {results.snippet.title}</a>
+                      <img src={results.snippet.thumbnails.default.url} style={{ width: 100 }} />
+                    </ul>
                   )
               })}
           </div>

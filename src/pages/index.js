@@ -16,6 +16,7 @@ import bgMaster from '../assets/images/bg-masthead.jpg';
 
 import PostList from '../posts/PostList';
 import VideoPostList from '../posts/VideoPostList';
+// import Carousel from '../components/carousel.js';
 
 const IndexPage = () => (
   <Layout>
@@ -50,8 +51,11 @@ const IndexPage = () => (
               </a> */}
               <PostList/>
               <VideoPostList/>
+              {/* <Carousel/> */}
+              
             </p>
           </div>
+
         </div>
         <img src={ipad} className="img-fluid" alt="" />
       </div>
