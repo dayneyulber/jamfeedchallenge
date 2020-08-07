@@ -61,50 +61,6 @@
              }
           ],
           "external_urls":{
-             "spotify":"https://open.spotify.com/album/2LydzcscdyEPC0cMKOJMAV"
-          },
-          "href":"https://api.spotify.com/v1/albums/2LydzcscdyEPC0cMKOJMAV",
-          "id":"2LydzcscdyEPC0cMKOJMAV",
-          "images":[
-             {
-                "height":640,
-                "url":"https://i.scdn.co/image/ab67616d0000b27352a5a9693bd7b5e0de37c169",
-                "width":640
-             },
-             {
-                "height":300,
-                "url":"https://i.scdn.co/image/ab67616d00001e0252a5a9693bd7b5e0de37c169",
-                "width":300
-             },
-             {
-                "height":64,
-                "url":"https://i.scdn.co/image/ab67616d0000485152a5a9693bd7b5e0de37c169",
-                "width":64
-             }
-          ],
-          "name":"I Wanna Thank Me",
-          "release_date":"2019-08-15",
-          "release_date_precision":"day",
-          "total_tracks":22,
-          "type":"album",
-          "uri":"spotify:album:2LydzcscdyEPC0cMKOJMAV"
-       },
-       {
-          "album_group":"album",
-          "album_type":"album",
-          "artists":[
-             {
-                "external_urls":{
-                   "spotify":"https://open.spotify.com/artist/7hJcb9fa4alzcOq3EaNPoG"
-                },
-                "href":"https://api.spotify.com/v1/artists/7hJcb9fa4alzcOq3EaNPoG",
-                "id":"7hJcb9fa4alzcOq3EaNPoG",
-                "name":"Snoop Dogg",
-                "type":"artist",
-                "uri":"spotify:artist:7hJcb9fa4alzcOq3EaNPoG"
-             }
-          ],
-          "external_urls":{
              "spotify":"https://open.spotify.com/album/4zeITicw3oKpOV5EMQIUQH"
           },
           "href":"https://api.spotify.com/v1/albums/4zeITicw3oKpOV5EMQIUQH",
@@ -693,50 +649,6 @@
              }
           ],
           "external_urls":{
-             "spotify":"https://open.spotify.com/album/6Hnr6UcLxnEadWQ70bZqGS"
-          },
-          "href":"https://api.spotify.com/v1/albums/6Hnr6UcLxnEadWQ70bZqGS",
-          "id":"6Hnr6UcLxnEadWQ70bZqGS",
-          "images":[
-             {
-                "height":640,
-                "url":"https://i.scdn.co/image/ab67616d0000b273e7000f5e6d025f6154880b3b",
-                "width":640
-             },
-             {
-                "height":300,
-                "url":"https://i.scdn.co/image/ab67616d00001e02e7000f5e6d025f6154880b3b",
-                "width":300
-             },
-             {
-                "height":64,
-                "url":"https://i.scdn.co/image/ab67616d00004851e7000f5e6d025f6154880b3b",
-                "width":64
-             }
-          ],
-          "name":"Doggumentary",
-          "release_date":"2011-01-01",
-          "release_date_precision":"day",
-          "total_tracks":22,
-          "type":"album",
-          "uri":"spotify:album:6Hnr6UcLxnEadWQ70bZqGS"
-       },
-       {
-          "album_group":"album",
-          "album_type":"album",
-          "artists":[
-             {
-                "external_urls":{
-                   "spotify":"https://open.spotify.com/artist/7hJcb9fa4alzcOq3EaNPoG"
-                },
-                "href":"https://api.spotify.com/v1/artists/7hJcb9fa4alzcOq3EaNPoG",
-                "id":"7hJcb9fa4alzcOq3EaNPoG",
-                "name":"Snoop Dogg",
-                "type":"artist",
-                "uri":"spotify:artist:7hJcb9fa4alzcOq3EaNPoG"
-             }
-          ],
-          "external_urls":{
              "spotify":"https://open.spotify.com/album/0wiCziapeV1iX4WvkhldFS"
           },
           "href":"https://api.spotify.com/v1/albums/0wiCziapeV1iX4WvkhldFS",
@@ -764,50 +676,6 @@
           "total_tracks":8,
           "type":"album",
           "uri":"spotify:album:0wiCziapeV1iX4WvkhldFS"
-       },
-       {
-          "album_group":"album",
-          "album_type":"album",
-          "artists":[
-             {
-                "external_urls":{
-                   "spotify":"https://open.spotify.com/artist/7hJcb9fa4alzcOq3EaNPoG"
-                },
-                "href":"https://api.spotify.com/v1/artists/7hJcb9fa4alzcOq3EaNPoG",
-                "id":"7hJcb9fa4alzcOq3EaNPoG",
-                "name":"Snoop Dogg",
-                "type":"artist",
-                "uri":"spotify:artist:7hJcb9fa4alzcOq3EaNPoG"
-             }
-          ],
-          "external_urls":{
-             "spotify":"https://open.spotify.com/album/6eAPkJOpJ2xxQbOX1Ch53C"
-          },
-          "href":"https://api.spotify.com/v1/albums/6eAPkJOpJ2xxQbOX1Ch53C",
-          "id":"6eAPkJOpJ2xxQbOX1Ch53C",
-          "images":[
-             {
-                "height":640,
-                "url":"https://i.scdn.co/image/ab67616d0000b273e7e5e90f2bd2dcfa5c07fd1b",
-                "width":640
-             },
-             {
-                "height":300,
-                "url":"https://i.scdn.co/image/ab67616d00001e02e7e5e90f2bd2dcfa5c07fd1b",
-                "width":300
-             },
-             {
-                "height":64,
-                "url":"https://i.scdn.co/image/ab67616d00004851e7e5e90f2bd2dcfa5c07fd1b",
-                "width":64
-             }
-          ],
-          "name":"More Malice",
-          "release_date":"2010-01-01",
-          "release_date_precision":"day",
-          "total_tracks":8,
-          "type":"album",
-          "uri":"spotify:album:6eAPkJOpJ2xxQbOX1Ch53C"
        },
        {
           "album_group":"album",
@@ -957,50 +825,6 @@
              }
           ],
           "external_urls":{
-             "spotify":"https://open.spotify.com/album/62EMDpF5cU0kgkLlMdSe1q"
-          },
-          "href":"https://api.spotify.com/v1/albums/62EMDpF5cU0kgkLlMdSe1q",
-          "id":"62EMDpF5cU0kgkLlMdSe1q",
-          "images":[
-             {
-                "height":640,
-                "url":"https://i.scdn.co/image/ab67616d0000b27322b2f22f7ae1bab37809d0d0",
-                "width":640
-             },
-             {
-                "height":300,
-                "url":"https://i.scdn.co/image/ab67616d00001e0222b2f22f7ae1bab37809d0d0",
-                "width":300
-             },
-             {
-                "height":64,
-                "url":"https://i.scdn.co/image/ab67616d0000485122b2f22f7ae1bab37809d0d0",
-                "width":64
-             }
-          ],
-          "name":"Malice 'N Wonderland",
-          "release_date":"2009-01-01",
-          "release_date_precision":"day",
-          "total_tracks":14,
-          "type":"album",
-          "uri":"spotify:album:62EMDpF5cU0kgkLlMdSe1q"
-       },
-       {
-          "album_group":"album",
-          "album_type":"album",
-          "artists":[
-             {
-                "external_urls":{
-                   "spotify":"https://open.spotify.com/artist/7hJcb9fa4alzcOq3EaNPoG"
-                },
-                "href":"https://api.spotify.com/v1/artists/7hJcb9fa4alzcOq3EaNPoG",
-                "id":"7hJcb9fa4alzcOq3EaNPoG",
-                "name":"Snoop Dogg",
-                "type":"artist",
-                "uri":"spotify:artist:7hJcb9fa4alzcOq3EaNPoG"
-             }
-          ],
-          "external_urls":{
              "spotify":"https://open.spotify.com/album/7HnpPsuzBgpkbZJm0GOMgC"
           },
           "href":"https://api.spotify.com/v1/albums/7HnpPsuzBgpkbZJm0GOMgC",
@@ -1028,50 +852,6 @@
           "total_tracks":21,
           "type":"album",
           "uri":"spotify:album:7HnpPsuzBgpkbZJm0GOMgC"
-       },
-       {
-          "album_group":"album",
-          "album_type":"album",
-          "artists":[
-             {
-                "external_urls":{
-                   "spotify":"https://open.spotify.com/artist/7hJcb9fa4alzcOq3EaNPoG"
-                },
-                "href":"https://api.spotify.com/v1/artists/7hJcb9fa4alzcOq3EaNPoG",
-                "id":"7hJcb9fa4alzcOq3EaNPoG",
-                "name":"Snoop Dogg",
-                "type":"artist",
-                "uri":"spotify:artist:7hJcb9fa4alzcOq3EaNPoG"
-             }
-          ],
-          "external_urls":{
-             "spotify":"https://open.spotify.com/album/0m85AvihFOnoaN3hpRsRBy"
-          },
-          "href":"https://api.spotify.com/v1/albums/0m85AvihFOnoaN3hpRsRBy",
-          "id":"0m85AvihFOnoaN3hpRsRBy",
-          "images":[
-             {
-                "height":640,
-                "url":"https://i.scdn.co/image/ab67616d0000b273e97a2c3a9b43e2b404cb6c89",
-                "width":640
-             },
-             {
-                "height":300,
-                "url":"https://i.scdn.co/image/ab67616d00001e02e97a2c3a9b43e2b404cb6c89",
-                "width":300
-             },
-             {
-                "height":64,
-                "url":"https://i.scdn.co/image/ab67616d00004851e97a2c3a9b43e2b404cb6c89",
-                "width":64
-             }
-          ],
-          "name":"Ego Trippin'",
-          "release_date":"2008-01-01",
-          "release_date_precision":"day",
-          "total_tracks":21,
-          "type":"album",
-          "uri":"spotify:album:0m85AvihFOnoaN3hpRsRBy"
        },
        {
           "album_group":"album",
@@ -1187,50 +967,6 @@
              }
           ],
           "external_urls":{
-             "spotify":"https://open.spotify.com/album/5Q1K1mEiR2F9MHzMbdBX3i"
-          },
-          "href":"https://api.spotify.com/v1/albums/5Q1K1mEiR2F9MHzMbdBX3i",
-          "id":"5Q1K1mEiR2F9MHzMbdBX3i",
-          "images":[
-             {
-                "height":640,
-                "url":"https://i.scdn.co/image/ab67616d0000b273e62556651b02964959dc8370",
-                "width":640
-             },
-             {
-                "height":300,
-                "url":"https://i.scdn.co/image/ab67616d00001e02e62556651b02964959dc8370",
-                "width":300
-             },
-             {
-                "height":64,
-                "url":"https://i.scdn.co/image/ab67616d00004851e62556651b02964959dc8370",
-                "width":64
-             }
-          ],
-          "name":"Tha Blue Carpet Treatment",
-          "release_date":"2006-01-01",
-          "release_date_precision":"day",
-          "total_tracks":21,
-          "type":"album",
-          "uri":"spotify:album:5Q1K1mEiR2F9MHzMbdBX3i"
-       },
-       {
-          "album_group":"album",
-          "album_type":"album",
-          "artists":[
-             {
-                "external_urls":{
-                   "spotify":"https://open.spotify.com/artist/7hJcb9fa4alzcOq3EaNPoG"
-                },
-                "href":"https://api.spotify.com/v1/artists/7hJcb9fa4alzcOq3EaNPoG",
-                "id":"7hJcb9fa4alzcOq3EaNPoG",
-                "name":"Snoop Dogg",
-                "type":"artist",
-                "uri":"spotify:artist:7hJcb9fa4alzcOq3EaNPoG"
-             }
-          ],
-          "external_urls":{
              "spotify":"https://open.spotify.com/album/4blm7LkC8y6FiyPsPVmqIt"
           },
           "href":"https://api.spotify.com/v1/albums/4blm7LkC8y6FiyPsPVmqIt",
@@ -1258,50 +994,6 @@
           "total_tracks":13,
           "type":"album",
           "uri":"spotify:album:4blm7LkC8y6FiyPsPVmqIt"
-       },
-       {
-          "album_group":"album",
-          "album_type":"album",
-          "artists":[
-             {
-                "external_urls":{
-                   "spotify":"https://open.spotify.com/artist/7hJcb9fa4alzcOq3EaNPoG"
-                },
-                "href":"https://api.spotify.com/v1/artists/7hJcb9fa4alzcOq3EaNPoG",
-                "id":"7hJcb9fa4alzcOq3EaNPoG",
-                "name":"Snoop Dogg",
-                "type":"artist",
-                "uri":"spotify:artist:7hJcb9fa4alzcOq3EaNPoG"
-             }
-          ],
-          "external_urls":{
-             "spotify":"https://open.spotify.com/album/3N1qSCetgO7IGcLQ6VjfrC"
-          },
-          "href":"https://api.spotify.com/v1/albums/3N1qSCetgO7IGcLQ6VjfrC",
-          "id":"3N1qSCetgO7IGcLQ6VjfrC",
-          "images":[
-             {
-                "height":640,
-                "url":"https://i.scdn.co/image/ab67616d0000b273d17f5285e8af9e4a9340b322",
-                "width":640
-             },
-             {
-                "height":300,
-                "url":"https://i.scdn.co/image/ab67616d00001e02d17f5285e8af9e4a9340b322",
-                "width":300
-             },
-             {
-                "height":64,
-                "url":"https://i.scdn.co/image/ab67616d00004851d17f5285e8af9e4a9340b322",
-                "width":64
-             }
-          ],
-          "name":"Presents Welcome To Tha Chuuch Tha Album",
-          "release_date":"2005-12-13",
-          "release_date_precision":"day",
-          "total_tracks":13,
-          "type":"album",
-          "uri":"spotify:album:3N1qSCetgO7IGcLQ6VjfrC"
        },
        {
           "album_group":"album",
@@ -1363,50 +1055,6 @@
              }
           ],
           "external_urls":{
-             "spotify":"https://open.spotify.com/album/5a0fDt6ou3EjNLHhwjrK08"
-          },
-          "href":"https://api.spotify.com/v1/albums/5a0fDt6ou3EjNLHhwjrK08",
-          "id":"5a0fDt6ou3EjNLHhwjrK08",
-          "images":[
-             {
-                "height":640,
-                "url":"https://i.scdn.co/image/ab67616d0000b273eccc51b57095d9f314b5b674",
-                "width":640
-             },
-             {
-                "height":300,
-                "url":"https://i.scdn.co/image/ab67616d00001e02eccc51b57095d9f314b5b674",
-                "width":300
-             },
-             {
-                "height":64,
-                "url":"https://i.scdn.co/image/ab67616d00004851eccc51b57095d9f314b5b674",
-                "width":64
-             }
-          ],
-          "name":"R&G (Rhythm & Gangsta): The Masterpiece",
-          "release_date":"2004-01-01",
-          "release_date_precision":"day",
-          "total_tracks":20,
-          "type":"album",
-          "uri":"spotify:album:5a0fDt6ou3EjNLHhwjrK08"
-       },
-       {
-          "album_group":"album",
-          "album_type":"album",
-          "artists":[
-             {
-                "external_urls":{
-                   "spotify":"https://open.spotify.com/artist/7hJcb9fa4alzcOq3EaNPoG"
-                },
-                "href":"https://api.spotify.com/v1/artists/7hJcb9fa4alzcOq3EaNPoG",
-                "id":"7hJcb9fa4alzcOq3EaNPoG",
-                "name":"Snoop Dogg",
-                "type":"artist",
-                "uri":"spotify:artist:7hJcb9fa4alzcOq3EaNPoG"
-             }
-          ],
-          "external_urls":{
              "spotify":"https://open.spotify.com/album/7F9hfZKh6WLOKME4LwCPZI"
           },
           "href":"https://api.spotify.com/v1/albums/7F9hfZKh6WLOKME4LwCPZI",
@@ -1451,50 +1099,6 @@
              }
           ],
           "external_urls":{
-             "spotify":"https://open.spotify.com/album/79qso2QM6A4cXYe8MsYLGu"
-          },
-          "href":"https://api.spotify.com/v1/albums/79qso2QM6A4cXYe8MsYLGu",
-          "id":"79qso2QM6A4cXYe8MsYLGu",
-          "images":[
-             {
-                "height":640,
-                "url":"https://i.scdn.co/image/ab67616d0000b273ad9baac8b0eb29eb04d367b7",
-                "width":640
-             },
-             {
-                "height":300,
-                "url":"https://i.scdn.co/image/ab67616d00001e02ad9baac8b0eb29eb04d367b7",
-                "width":300
-             },
-             {
-                "height":64,
-                "url":"https://i.scdn.co/image/ab67616d00004851ad9baac8b0eb29eb04d367b7",
-                "width":64
-             }
-          ],
-          "name":"Paid Tha Cost To Be Da Bo$$",
-          "release_date":"2002-01-01",
-          "release_date_precision":"day",
-          "total_tracks":20,
-          "type":"album",
-          "uri":"spotify:album:79qso2QM6A4cXYe8MsYLGu"
-       },
-       {
-          "album_group":"album",
-          "album_type":"album",
-          "artists":[
-             {
-                "external_urls":{
-                   "spotify":"https://open.spotify.com/artist/7hJcb9fa4alzcOq3EaNPoG"
-                },
-                "href":"https://api.spotify.com/v1/artists/7hJcb9fa4alzcOq3EaNPoG",
-                "id":"7hJcb9fa4alzcOq3EaNPoG",
-                "name":"Snoop Dogg",
-                "type":"artist",
-                "uri":"spotify:artist:7hJcb9fa4alzcOq3EaNPoG"
-             }
-          ],
-          "external_urls":{
              "spotify":"https://open.spotify.com/album/5EECWlsRTFAk2Zei0fxPUg"
           },
           "href":"https://api.spotify.com/v1/albums/5EECWlsRTFAk2Zei0fxPUg",
@@ -1522,50 +1126,6 @@
           "total_tracks":21,
           "type":"album",
           "uri":"spotify:album:5EECWlsRTFAk2Zei0fxPUg"
-       },
-       {
-          "album_group":"album",
-          "album_type":"album",
-          "artists":[
-             {
-                "external_urls":{
-                   "spotify":"https://open.spotify.com/artist/7hJcb9fa4alzcOq3EaNPoG"
-                },
-                "href":"https://api.spotify.com/v1/artists/7hJcb9fa4alzcOq3EaNPoG",
-                "id":"7hJcb9fa4alzcOq3EaNPoG",
-                "name":"Snoop Dogg",
-                "type":"artist",
-                "uri":"spotify:artist:7hJcb9fa4alzcOq3EaNPoG"
-             }
-          ],
-          "external_urls":{
-             "spotify":"https://open.spotify.com/album/2ilaZD0ZL44pEHyAN9vEbF"
-          },
-          "href":"https://api.spotify.com/v1/albums/2ilaZD0ZL44pEHyAN9vEbF",
-          "id":"2ilaZD0ZL44pEHyAN9vEbF",
-          "images":[
-             {
-                "height":640,
-                "url":"https://i.scdn.co/image/ab67616d0000b273ef9c8145146182b01b799f8e",
-                "width":640
-             },
-             {
-                "height":300,
-                "url":"https://i.scdn.co/image/ab67616d00001e02ef9c8145146182b01b799f8e",
-                "width":300
-             },
-             {
-                "height":64,
-                "url":"https://i.scdn.co/image/ab67616d00004851ef9c8145146182b01b799f8e",
-                "width":64
-             }
-          ],
-          "name":"Tha Doggfather",
-          "release_date":"2001-04-24",
-          "release_date_precision":"day",
-          "total_tracks":21,
-          "type":"album",
-          "uri":"spotify:album:2ilaZD0ZL44pEHyAN9vEbF"
        },
        {
           "album_group":"album",
@@ -1715,50 +1275,6 @@
              }
           ],
           "external_urls":{
-             "spotify":"https://open.spotify.com/album/4j4rodLlAYIh6Cw0YMMScK"
-          },
-          "href":"https://api.spotify.com/v1/albums/4j4rodLlAYIh6Cw0YMMScK",
-          "id":"4j4rodLlAYIh6Cw0YMMScK",
-          "images":[
-             {
-                "height":640,
-                "url":"https://i.scdn.co/image/ab67616d0000b273272929aa20873195afc646fb",
-                "width":640
-             },
-             {
-                "height":300,
-                "url":"https://i.scdn.co/image/ab67616d00001e02272929aa20873195afc646fb",
-                "width":300
-             },
-             {
-                "height":64,
-                "url":"https://i.scdn.co/image/ab67616d00004851272929aa20873195afc646fb",
-                "width":64
-             }
-          ],
-          "name":"No Limit Top Dogg",
-          "release_date":"1999-01-01",
-          "release_date_precision":"day",
-          "total_tracks":21,
-          "type":"album",
-          "uri":"spotify:album:4j4rodLlAYIh6Cw0YMMScK"
-       },
-       {
-          "album_group":"album",
-          "album_type":"album",
-          "artists":[
-             {
-                "external_urls":{
-                   "spotify":"https://open.spotify.com/artist/7hJcb9fa4alzcOq3EaNPoG"
-                },
-                "href":"https://api.spotify.com/v1/artists/7hJcb9fa4alzcOq3EaNPoG",
-                "id":"7hJcb9fa4alzcOq3EaNPoG",
-                "name":"Snoop Dogg",
-                "type":"artist",
-                "uri":"spotify:artist:7hJcb9fa4alzcOq3EaNPoG"
-             }
-          ],
-          "external_urls":{
              "spotify":"https://open.spotify.com/album/0ADxWse76Nsk2Tvq5SXGGQ"
           },
           "href":"https://api.spotify.com/v1/albums/0ADxWse76Nsk2Tvq5SXGGQ",
@@ -1786,50 +1302,6 @@
           "total_tracks":21,
           "type":"album",
           "uri":"spotify:album:0ADxWse76Nsk2Tvq5SXGGQ"
-       },
-       {
-          "album_group":"album",
-          "album_type":"album",
-          "artists":[
-             {
-                "external_urls":{
-                   "spotify":"https://open.spotify.com/artist/7hJcb9fa4alzcOq3EaNPoG"
-                },
-                "href":"https://api.spotify.com/v1/artists/7hJcb9fa4alzcOq3EaNPoG",
-                "id":"7hJcb9fa4alzcOq3EaNPoG",
-                "name":"Snoop Dogg",
-                "type":"artist",
-                "uri":"spotify:artist:7hJcb9fa4alzcOq3EaNPoG"
-             }
-          ],
-          "external_urls":{
-             "spotify":"https://open.spotify.com/album/3RQ02e98O3eQ0f9z91yOh9"
-          },
-          "href":"https://api.spotify.com/v1/albums/3RQ02e98O3eQ0f9z91yOh9",
-          "id":"3RQ02e98O3eQ0f9z91yOh9",
-          "images":[
-             {
-                "height":640,
-                "url":"https://i.scdn.co/image/ab67616d0000b2736c694e271edc5f1ed41cd20f",
-                "width":640
-             },
-             {
-                "height":300,
-                "url":"https://i.scdn.co/image/ab67616d00001e026c694e271edc5f1ed41cd20f",
-                "width":300
-             },
-             {
-                "height":64,
-                "url":"https://i.scdn.co/image/ab67616d000048516c694e271edc5f1ed41cd20f",
-                "width":64
-             }
-          ],
-          "name":"Da Game Is To Be Sold, Not To Be Told",
-          "release_date":"1998-01-01",
-          "release_date_precision":"day",
-          "total_tracks":21,
-          "type":"album",
-          "uri":"spotify:album:3RQ02e98O3eQ0f9z91yOh9"
        },
        {
           "album_group":"album",

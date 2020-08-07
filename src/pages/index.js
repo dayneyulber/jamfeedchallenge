@@ -18,7 +18,8 @@ import doggy from '../assets/images/doggystyle.jpg';
 
 import PostList from '../posts/PostList';
 import VideoPostList from '../posts/VideoPostList';
-// import Button from '../components/spotifyBtn'; 
+import MusicPostList from '../posts/MusicPostList';
+import Button from '../components/spotifyBtn'; 
 // import Carousel from '../components/carousel';
 
 const IndexPage = () => (
@@ -55,6 +56,7 @@ const IndexPage = () => (
               <PostList />
               <h3 className="text-white mb-4">Related Videos</h3>
               <VideoPostList />
+              <MusicPostList/>
               {/* <Carousel/> */}
               {/* <Button/> */}
               {/* <Carousel/> */}
@@ -75,6 +77,7 @@ const IndexPage = () => (
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
+              <Button/>
               <h4>Shoreline</h4>
               <p className="text-black-50 mb-0">
                 Grayscale is open source and MIT licensed. This means you can

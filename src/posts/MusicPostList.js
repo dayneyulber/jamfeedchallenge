@@ -1,23 +1,35 @@
 import React, { Component } from 'react';
-import PostData from '../data/mainpayload.json';
+import MusicPostData from '../data/musicsectionpayload.json';
 
-class PostList extends Component {
+class MusicPostList extends Component {
   static async getInitialProps({ req, res, match, history, location, ...ctx }) {
     return { whatever: 'stuff' };
   }
 
   render() {
-    const artist = PostData.appData.artist; 
-
     return (
       <div>
-          {Object.keys(artist).map(key => {
-            return (<p>{artist[key]}</p>
-                )
-          })}
+          <div>
+              { MusicPostData.items.map((items, index) => {
+                  return (
+                    <ul>
+                      {/* <l1>{news.title}</l1> */}
+                      <a href={items.external_urls.spotify}>
+                        {items.name}
+                      </a>
+                      <div>
+                        <img
+                          src={items.images.url}
+                          style={{ width: 100 }}
+                        />
+                      </div>
+                    </ul>
+                  );
+              })}
+          </div>
       </div>
     );
   }
 }
 
-export default PostList;
+export default MusicPostList;
