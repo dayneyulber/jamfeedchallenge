@@ -9,24 +9,16 @@ import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
-import ipad from '../assets/images/ipad.png';
-import demoImage1 from '../assets/images/demo-image-01.jpg';
-import demoImage2 from '../assets/images/demo-image-02.jpg';
+// import ipad from '../assets/images/ipad.png';
+// import demoImage1 from '../assets/images/demo-image-01.jpg';
+// import demoImage2 from '../assets/images/demo-image-02.jpg';
 import bgMaster from '../assets/images/bg-masthead.jpg';
+import thankMe from '../assets/images/thank_me.jpg';
+import doggy from '../assets/images/doggystyle.jpg';
 
 import PostList from '../posts/PostList';
 import VideoPostList from '../posts/VideoPostList';
 import Button from '../components/spotifyBtn'; 
-
-function getHashParams() {
-  var hashParams = {};
-  var e, r = /([^&;=]+)=?([^&;]*)/g,
-      q = window.location.hash.substring(1);
-  while ( e = r.exec(q)) {
-     hashParams[e[1]] = decodeURIComponent(e[2]);
-  }
-  return hashParams;
-}
 
 const IndexPage = () => (
   <Layout>
@@ -61,14 +53,14 @@ const IndexPage = () => (
               </a> */}
               <PostList />
               <VideoPostList />
-              <Button/>
+              {/* <Button/> */}
               {/* <Carousel/> */}
               
             </p>
           </div>
 
         </div>
-        <img src={ipad} className="img-fluid" alt="" />
+        {/* <img src={ipad} className="img-fluid" alt="" /> */}
       </div>
     </section>
 
@@ -86,19 +78,20 @@ const IndexPage = () => (
                 use it for any project - even commercial projects! Download it,
                 customize it, and publish your website!
               </p>
+              {/* <Button/> */}
             </div>
           </div>
         </div>
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage1} alt="" />
+            <img className="img-fluid" src={thankMe} alt="" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Misty</h4>
+                  <h4 className="text-white">I Wanna Thank Me</h4>
                   <p className="mb-0 text-white-50">
                     An example of where you can put an image of a project, or
                     anything else, along with a description.
@@ -112,13 +105,13 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage2} alt="" />
+            <img className="img-fluid" src={doggy} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
+                  <h4 className="text-white">Doggystyle</h4>
                   <p className="mb-0 text-white-50">
                     Another example of a project with its respective
                     description. These sections work well responsively as well,
