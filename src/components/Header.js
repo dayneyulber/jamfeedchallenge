@@ -69,7 +69,7 @@ export default class Header extends Component {
                   element="about"
                 >
                   <a className="nav-link" href="#about">
-                    BIO
+                    NEWS
                   </a>
                 </Scroll>
               </li>

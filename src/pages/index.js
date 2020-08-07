@@ -60,8 +60,6 @@ const IndexPage = () => (
               <PostList />
               {/* <h3 className="text-white mb-4">Related Videos</h3>
               <VideoPostList /> */}
-              <h4 className="text-white mb-4">Projects</h4>
-              <TitlebarGridList/>
               {/* <Carousel/> */}
               {/* <Button/> */}
               {/* <Carousel/> */}
@@ -78,12 +76,13 @@ const IndexPage = () => (
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={snoop10} alt="" />
+          <h4 className="text-white mb-4">Projects</h4>
+              <TitlebarGridList/>
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
               <Button/>
-              <h4>Shoreline</h4>
+              <h4>Connect Your Spotify</h4>
               <p className="text-black-50 mb-0">
                 Grayscale is open source and MIT licensed. This means you can
                 use it for any project - even commercial projects! Download it,
