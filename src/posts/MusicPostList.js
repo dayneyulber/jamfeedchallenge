@@ -19,7 +19,7 @@ class MusicPostList extends Component {
                       </a>
                       <div>
                         <img
-                          src={items.images.url}
+                          src={items.url}
                           style={{ width: 100 }}
                         />
                       </div>

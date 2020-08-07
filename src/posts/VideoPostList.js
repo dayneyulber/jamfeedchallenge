@@ -19,7 +19,7 @@ class VideoPostList extends Component {
                       </a>
                       <div>
                         <img
-                          src={results.snippet.thumbnails.default.url}
+                          src={results.snippet.thumbnails.high.url}
                           style={{ width: 100 }}
                         />
                       </div>

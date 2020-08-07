@@ -13,8 +13,10 @@ import Header from '../components/Header';
 // import demoImage1 from '../assets/images/demo-image-01.jpg';
 // import demoImage2 from '../assets/images/demo-image-02.jpg';
 import bgMaster from '../assets/images/bg-masthead.jpg';
-import thankMe from '../assets/images/thank_me.jpg';
-import doggy from '../assets/images/doggystyle.jpg';
+// import thankMe from '../assets/images/thank_me.jpg';
+// import doggy from '../assets/images/doggystyle.jpg';
+import snoop5 from '../assets/images/snoop5.jpeg'
+import style from '../assets/images/doggystyle.jpeg'
 
 import PostList from '../posts/PostList';
 import VideoPostList from '../posts/VideoPostList';
@@ -56,6 +58,8 @@ const IndexPage = () => (
               <PostList />
               <h3 className="text-white mb-4">Related Videos</h3>
               <VideoPostList />
+              <PostList />
+              <h4 className="text-white mb-4">Projects</h4>
               <MusicPostList/>
               {/* <Carousel/> */}
               {/* <Button/> */}
@@ -91,7 +95,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={thankMe} alt="" />
+            <img className="img-fluid" src={snoop5} alt="" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
@@ -111,7 +115,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={doggy} alt="" />
+            <img className="img-fluid" src={style} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
