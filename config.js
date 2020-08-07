@@ -14,24 +14,19 @@ module.exports = {
   // social
   socialLinks: [
     {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
-    },
-    {
-      icon: 'fa-linkedin-in',
-      name: 'Linkedin',
-      url: 'https://linkedin.com/in/theanubhav/',
+      icon: 'fa-facebook-f',
+      name: 'Facebook',
+      url: 'https://www.facebook.com/JamFeedApp/',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/jamfeedapp',
     },
     {
-      icon: 'fa-facebook-f',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      icon: 'fa-instagram',
+      name: 'Instagram',
+      url: 'https://www.instagram.com/jamfeed/?ref=badge',
     },
   ],
   email: 'anubhav.srivastava00@gmail.com',
