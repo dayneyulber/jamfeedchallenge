@@ -1,35 +1,65 @@
-import React, { Component } from 'react';
+import React from 'react';
 import MusicPostData from '../data/musicsectionpayload.json';
+import { makeStyles } from '@material-ui/core/styles';
+import GridList from '@material-ui/core/GridList';
+import GridListTile from '@material-ui/core/GridListTile';
+import GridListTileBar from '@material-ui/core/GridListTileBar';
+import ListSubheader from '@material-ui/core/ListSubheader';
+import IconButton from '@material-ui/core/IconButton';
+// import InfoIcon from '@material-ui/icons/Info';
+// import tileData from './tileData';
 
-class MusicPostList extends Component {
-  static async getInitialProps({ req, res, match, history, location, ...ctx }) {
-    return { whatever: 'stuff' };
-  }
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+    overflow: 'hidden',
+    backgroundColor: 'transparent',
+  },
+  gridList: {
+    width: 500,
+    height: 450,
+  },
+  icon: {
+    color: 'rgba(255, 255, 255, 0.54)',
+  },
+}));
 
-  render() {
-    return (
-      <div>
-          <div>
-              { MusicPostData.items.map((items, index) => {
-                  return (
-                    <ul>
-                      {/* <l1>{news.title}</l1> */}
-                      <a href={items.external_urls.spotify}>
-                        {items.name}
-                      </a>
-                      <div>
-                        <img
-                          src={items.url}
-                          style={{ width: 100 }}
-                        />
-                      </div>
-                    </ul>
-                  );
-              })}
-          </div>
-      </div>
-    );
-  }
+/**
+ * The example data is structured as follows:
+ *
+ * import image from 'path/to/image.jpg';
+ * [etc...]
+ *
+ * const tileData = [
+ *   {
+ *     img: image,
+ *     title: 'Image',
+ *     author: 'author',
+ *   },
+ *   {
+ *     [etc...]
+ *   },
+ * ];
+ */
+export default function TitlebarGridList() {
+  const classes = useStyles();
+
+  return (
+    <div className={classes.root}>
+      <GridList cellHeight={180} className={classes.gridList}>
+        <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
+          <ListSubheader component="div">December</ListSubheader>
+        </GridListTile>
+        {MusicPostData.items.map((items, index) => (
+          <GridListTile href={items.external_urls.spotify}>
+            <img src={items.url}/>
+            <GridListTileBar
+              title={items.name}/>
+          </GridListTile>
+        ))}
+      </GridList>
+    </div>
+  );
 }
-
-export default MusicPostList;

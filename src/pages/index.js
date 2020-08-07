@@ -21,9 +21,10 @@ import style from '../assets/images/doggystyle.jpeg'
 
 import PostList from '../posts/PostList';
 // import VideoPostList from '../posts/VideoPostList';
-import MusicPostList from '../posts/MusicPostList';
+// import MusicPostList from '../posts/MusicPostList';
 import Button from '../components/spotifyBtn'; 
 // import Carousel from '../components/carousel';
+import TitlebarGridList from '../posts/MusicPostList';
 
 const IndexPage = () => (
   <Layout>
@@ -60,7 +61,7 @@ const IndexPage = () => (
               {/* <h3 className="text-white mb-4">Related Videos</h3>
               <VideoPostList /> */}
               <h4 className="text-white mb-4">Projects</h4>
-              <MusicPostList/>
+              <TitlebarGridList/>
               {/* <Carousel/> */}
               {/* <Button/> */}
               {/* <Carousel/> */}
