@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-class Carousel extends Component {
+export default class Carousel extends Component {
   static async getInitialProps({ req, res, match, history, location, ...ctx }) {
     return { whatever: 'stuff' };
   }
@@ -87,5 +87,3 @@ class Carousel extends Component {
     );
   }
 }
-
-export default Carousel;

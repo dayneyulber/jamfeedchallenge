@@ -328,4 +328,9 @@ template {
 [hidden] {
   display: none !important;
 }
+
+.news {
+  vertical-align: middle;
+  border-style: none;
+}
 /*# sourceMappingURL=bootstrap-reboot.css.map */

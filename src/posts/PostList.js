@@ -16,11 +16,16 @@ class PostList extends Component {
                   return (
                     <ul>
                       {/* <l1>{news.title}</l1> */}
-                      <a href={news.linkurl}>
-                        {news.title}</a>
-                      <img src={news.pictureurl} style={{ width: 100 }} />
+                      <a href={news.linkurl}>{news.title}</a>
+                      <div>
+                        <img
+                          className="news"
+                          src={news.pictureurl}
+                          style={{ width: 100 }}
+                        />
+                      </div>
                     </ul>
-                  )
+                  );
               })}
           </div>
       </div>

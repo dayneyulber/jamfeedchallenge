@@ -18,7 +18,8 @@ import doggy from '../assets/images/doggystyle.jpg';
 
 import PostList from '../posts/PostList';
 import VideoPostList from '../posts/VideoPostList';
-import Button from '../components/spotifyBtn'; 
+// import Button from '../components/spotifyBtn'; 
+// import Carousel from '../components/carousel';
 
 const IndexPage = () => (
   <Layout>
@@ -52,7 +53,9 @@ const IndexPage = () => (
                 the github repo
               </a> */}
               <PostList />
+              <h3 className="text-white mb-4">Related Videos</h3>
               <VideoPostList />
+              {/* <Carousel/> */}
               {/* <Button/> */}
               {/* <Carousel/> */}
               

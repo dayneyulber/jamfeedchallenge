@@ -15,10 +15,16 @@ class VideoPostList extends Component {
                     <ul>
                       {/* <l1>{news.title}</l1> */}
                       <a href={results.snippet.title}>
-                        {results.snippet.title}</a>
-                      <img src={results.snippet.thumbnails.default.url} style={{ width: 100 }} />
+                        {results.snippet.title}
+                      </a>
+                      <div>
+                        <img
+                          src={results.snippet.thumbnails.default.url}
+                          style={{ width: 100 }}
+                        />
+                      </div>
                     </ul>
-                  )
+                  );
               })}
           </div>
       </div>
