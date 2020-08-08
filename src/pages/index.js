@@ -39,7 +39,7 @@ const IndexPage = () => (
           </h2>
           <Scroll type="id" element="about">
             <a href="#about" className="btn btn-primary">
-              about
+              enter
             </a>
           </Scroll>
         </div>

@@ -4,6 +4,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
+import Button from '@material-ui/core/Button';
+// import Link from '@material-ui/core/Link';
 // import IconButton from '@material-ui/core/IconButton';
 // import StarBorderIcon from '@material-ui/icons/StarBorder';
 // import tileData from './tileData';
@@ -22,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
     transform: 'translateZ(0)',
   },
   title: {
-    color: theme.palette.primary.light,
+    // color: theme.palette.primary.light,
   },
   titleBar: {
     background:
@@ -55,15 +57,9 @@ export default function SingleLineGridList() {
       <GridList className={classes.gridList} cols={2.5}>
         {PostData.appData.news.map((news, index) => (
           <GridListTile>
-            <img src={news.pictureurl}/>
-            <GridListTileBar
-              title={news.title}
-              classes={{
-                root: classes.titleBar,
-                title: classes.title,
-              }}
-            />
-            <a href={news.linkurl}>{news.title}</a>
+            {/* <Button href={news.linkurl}>link</Button> */}
+            <img src={news.pictureurl} />
+            <GridListTileBar title={news.title} />
           </GridListTile>
         ))}
       </GridList>
